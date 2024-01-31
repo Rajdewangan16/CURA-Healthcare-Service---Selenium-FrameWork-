@@ -1,0 +1,35 @@
+[
+{
+
+	"user" : "John Doe",
+	"password" : "ThisIsNotAPassword",
+	"facility" : "Tokyo CURA Healthcare Center",
+	"day" : "6",
+	"monthAndYear" : "March 2025",
+	"comment" : "I want to checkup my teeth"
+
+},
+
+{
+
+	"user" : "John Doe",
+	"password" : "ThisIsNotAPassword",
+	"facility" : "Hongkong CURA Healthcare Center",
+	"day" : "21",
+	"monthAndYear" : "May 2024",
+	"comment" : "I want to checkup my mouth"
+
+},
+
+{
+
+	"user" : "John Doe",
+	"password" : "ThisIsNotAPassword",
+	"facility" : "Seoul CURA Healthcare Center",
+	"day" : "16",
+	"monthAndYear" : "April 2024",
+	"comment" : "I want to checkup my mouth"
+
+}
+
+]

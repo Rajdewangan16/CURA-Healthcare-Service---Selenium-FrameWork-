@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-31T11:28:04 IST" name="Surefire suite" finished-at="2024-01-31T11:33:37 IST" duration-ms="333315">
+    <groups>
+      <group name="smoke">
+        <method signature="LoginTest.loginWithMakeAppointLink(java.util.HashMap)[pri:0, instance:curaHealthCare.tests.LoginTest@3fb1549b]" name="loginWithMakeAppointLink" class="curaHealthCare.tests.LoginTest"/>
+        <method signature="MakeAppointmentTest.bookHistory(java.util.HashMap)[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" name="bookHistory" class="curaHealthCare.tests.MakeAppointmentTest"/>
+      </group> <!-- smoke -->
+      <group name="errorHandling">
+        <method signature="ErrorValidationsTest.verifyLoginErrorMessage()[pri:0, instance:curaHealthCare.tests.ErrorValidationsTest@10feca44]" name="verifyLoginErrorMessage" class="curaHealthCare.tests.ErrorValidationsTest"/>
+      </group> <!-- errorHandling -->
+    </groups>
+    <test started-at="2024-01-31T11:28:04 IST" name="Surefire test" finished-at="2024-01-31T11:33:37 IST" duration-ms="333315">
+      <class name="curaHealthCare.tests.LoginTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:curaHealthCare.tests.LoginTest@3fb1549b]" started-at="2024-01-31T11:28:47 IST" name="launchApplication" finished-at="2024-01-31T11:29:00 IST" duration-ms="13006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginWithMakeAppointLink(java.util.HashMap)[pri:0, instance:curaHealthCare.tests.LoginTest@3fb1549b]" started-at="2024-01-31T11:29:00 IST" name="loginWithMakeAppointLink" data-provider="loginData" finished-at="2024-01-31T11:29:02 IST" duration-ms="2529" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=ThisIsNotAPassword, monthAndYear=March 2025, comment=I want to checkup my teeth, user=John Doe, facility=Tokyo CURA Healthcare Center, day=6}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithMakeAppointLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:curaHealthCare.tests.LoginTest@3fb1549b]" started-at="2024-01-31T11:29:02 IST" name="tearDown" finished-at="2024-01-31T11:29:03 IST" duration-ms="450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:curaHealthCare.tests.LoginTest@3fb1549b]" started-at="2024-01-31T11:29:03 IST" name="launchApplication" finished-at="2024-01-31T11:29:13 IST" duration-ms="9856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginWithNavbar(java.util.HashMap)[pri:0, instance:curaHealthCare.tests.LoginTest@3fb1549b]" started-at="2024-01-31T11:29:13 IST" name="loginWithNavbar" data-provider="loginData" finished-at="2024-01-31T11:29:15 IST" duration-ms="2565" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=ThisIsNotAPassword, monthAndYear=March 2025, comment=I want to checkup my teeth, user=John Doe, facility=Tokyo CURA Healthcare Center, day=6}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithNavbar -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:curaHealthCare.tests.LoginTest@3fb1549b]" started-at="2024-01-31T11:29:15 IST" name="tearDown" finished-at="2024-01-31T11:29:16 IST" duration-ms="651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- curaHealthCare.tests.LoginTest -->
+      <class name="curaHealthCare.tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:curaHealthCare.tests.ErrorValidationsTest@10feca44]" started-at="2024-01-31T11:28:04 IST" name="launchApplication" finished-at="2024-01-31T11:28:38 IST" duration-ms="34291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyLoginErrorMessage()[pri:0, instance:curaHealthCare.tests.ErrorValidationsTest@10feca44]" started-at="2024-01-31T11:28:38 IST" name="verifyLoginErrorMessage" finished-at="2024-01-31T11:28:45 IST" duration-ms="7188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginErrorMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:curaHealthCare.tests.ErrorValidationsTest@10feca44]" started-at="2024-01-31T11:28:45 IST" name="tearDown" finished-at="2024-01-31T11:28:46 IST" duration-ms="604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- curaHealthCare.tests.ErrorValidationsTest -->
+      <class name="curaHealthCare.tests.MakeAppointmentTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:29:16 IST" name="launchApplication" finished-at="2024-01-31T11:29:25 IST" duration-ms="8875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="bookHistory(java.util.HashMap)[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:29:25 IST" name="bookHistory" data-provider="appointmentData" finished-at="2024-01-31T11:29:34 IST" duration-ms="9238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=ThisIsNotAPassword, monthAndYear=March 2025, comment=I want to checkup my teeth, user=John Doe, facility=Tokyo CURA Healthcare Center, day=6}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookHistory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:29:34 IST" name="tearDown" finished-at="2024-01-31T11:29:35 IST" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:29:35 IST" name="launchApplication" finished-at="2024-01-31T11:29:44 IST" duration-ms="9485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="bookHistory(java.util.HashMap)[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:29:44 IST" name="bookHistory" data-provider="appointmentData" finished-at="2024-01-31T11:29:51 IST" duration-ms="6814" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=ThisIsNotAPassword, monthAndYear=May 2024, comment=I want to checkup my mouth, user=John Doe, facility=Hongkong CURA Healthcare Center, day=21}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookHistory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:29:51 IST" name="tearDown" finished-at="2024-01-31T11:29:51 IST" duration-ms="598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:29:51 IST" name="launchApplication" finished-at="2024-01-31T11:30:01 IST" duration-ms="9404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="bookHistory(java.util.HashMap)[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:30:01 IST" name="bookHistory" data-provider="appointmentData" finished-at="2024-01-31T11:30:07 IST" duration-ms="6435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=ThisIsNotAPassword, monthAndYear=May 2024, comment=I want to checkup my mouth, user=John Doe, facility=Hongkong CURA Healthcare Center, day=21}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookHistory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:30:07 IST" name="tearDown" finished-at="2024-01-31T11:30:08 IST" duration-ms="506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:30:08 IST" name="launchApplication" finished-at="2024-01-31T11:30:16 IST" duration-ms="8464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="withDefaultHealthCareProgram(java.util.HashMap)[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:30:16 IST" name="withDefaultHealthCareProgram" data-provider="appointmentData" finished-at="2024-01-31T11:30:23 IST" duration-ms="7264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=ThisIsNotAPassword, monthAndYear=March 2025, comment=I want to checkup my teeth, user=John Doe, facility=Tokyo CURA Healthcare Center, day=6}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withDefaultHealthCareProgram -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:30:23 IST" name="tearDown" finished-at="2024-01-31T11:30:24 IST" duration-ms="401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:30:24 IST" name="launchApplication" finished-at="2024-01-31T11:30:31 IST" duration-ms="7467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="withDefaultHealthCareProgram(java.util.HashMap)[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:30:31 IST" name="withDefaultHealthCareProgram" data-provider="appointmentData" finished-at="2024-01-31T11:30:40 IST" duration-ms="8787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=ThisIsNotAPassword, monthAndYear=May 2024, comment=I want to checkup my mouth, user=John Doe, facility=Hongkong CURA Healthcare Center, day=21}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withDefaultHealthCareProgram -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:30:40 IST" name="tearDown" finished-at="2024-01-31T11:30:41 IST" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:30:41 IST" name="launchApplication" finished-at="2024-01-31T11:30:51 IST" duration-ms="10609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="withDefaultHealthCareProgram(java.util.HashMap)[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:30:51 IST" name="withDefaultHealthCareProgram" data-provider="appointmentData" finished-at="2024-01-31T11:30:58 IST" duration-ms="6443" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=ThisIsNotAPassword, monthAndYear=May 2024, comment=I want to checkup my mouth, user=John Doe, facility=Hongkong CURA Healthcare Center, day=21}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withDefaultHealthCareProgram -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:30:58 IST" name="tearDown" finished-at="2024-01-31T11:30:58 IST" duration-ms="407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:30:58 IST" name="launchApplication" finished-at="2024-01-31T11:31:10 IST" duration-ms="11629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="withMedicaidHealthCareProgram(java.util.HashMap)[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:31:10 IST" name="withMedicaidHealthCareProgram" data-provider="appointmentData" finished-at="2024-01-31T11:31:18 IST" duration-ms="8557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=ThisIsNotAPassword, monthAndYear=March 2025, comment=I want to checkup my teeth, user=John Doe, facility=Tokyo CURA Healthcare Center, day=6}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withMedicaidHealthCareProgram -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:31:18 IST" name="tearDown" finished-at="2024-01-31T11:31:19 IST" duration-ms="465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:31:19 IST" name="launchApplication" finished-at="2024-01-31T11:31:27 IST" duration-ms="8555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="withMedicaidHealthCareProgram(java.util.HashMap)[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:31:27 IST" name="withMedicaidHealthCareProgram" data-provider="appointmentData" finished-at="2024-01-31T11:31:34 IST" duration-ms="6278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=ThisIsNotAPassword, monthAndYear=May 2024, comment=I want to checkup my mouth, user=John Doe, facility=Hongkong CURA Healthcare Center, day=21}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withMedicaidHealthCareProgram -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:31:34 IST" name="tearDown" finished-at="2024-01-31T11:31:34 IST" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:31:34 IST" name="launchApplication" finished-at="2024-01-31T11:31:43 IST" duration-ms="8917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="withMedicaidHealthCareProgram(java.util.HashMap)[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:31:43 IST" name="withMedicaidHealthCareProgram" data-provider="appointmentData" finished-at="2024-01-31T11:31:50 IST" duration-ms="6669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=ThisIsNotAPassword, monthAndYear=May 2024, comment=I want to checkup my mouth, user=John Doe, facility=Hongkong CURA Healthcare Center, day=21}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withMedicaidHealthCareProgram -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:31:50 IST" name="tearDown" finished-at="2024-01-31T11:31:50 IST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:31:50 IST" name="launchApplication" finished-at="2024-01-31T11:31:59 IST" duration-ms="9286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="withNoHealthCareProgram(java.util.HashMap)[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:31:59 IST" name="withNoHealthCareProgram" data-provider="appointmentData" finished-at="2024-01-31T11:32:07 IST" duration-ms="7333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=ThisIsNotAPassword, monthAndYear=March 2025, comment=I want to checkup my teeth, user=John Doe, facility=Tokyo CURA Healthcare Center, day=6}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withNoHealthCareProgram -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:32:07 IST" name="tearDown" finished-at="2024-01-31T11:32:07 IST" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:32:07 IST" name="launchApplication" finished-at="2024-01-31T11:32:17 IST" duration-ms="10500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="withNoHealthCareProgram(java.util.HashMap)[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:32:17 IST" name="withNoHealthCareProgram" data-provider="appointmentData" finished-at="2024-01-31T11:32:24 IST" duration-ms="6699" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=ThisIsNotAPassword, monthAndYear=May 2024, comment=I want to checkup my mouth, user=John Doe, facility=Hongkong CURA Healthcare Center, day=21}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withNoHealthCareProgram -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:32:24 IST" name="tearDown" finished-at="2024-01-31T11:32:25 IST" duration-ms="404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:32:25 IST" name="launchApplication" finished-at="2024-01-31T11:32:35 IST" duration-ms="10689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="withNoHealthCareProgram(java.util.HashMap)[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:32:35 IST" name="withNoHealthCareProgram" data-provider="appointmentData" finished-at="2024-01-31T11:32:42 IST" duration-ms="6444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=ThisIsNotAPassword, monthAndYear=May 2024, comment=I want to checkup my mouth, user=John Doe, facility=Hongkong CURA Healthcare Center, day=21}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withNoHealthCareProgram -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:32:42 IST" name="tearDown" finished-at="2024-01-31T11:32:42 IST" duration-ms="627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:32:42 IST" name="launchApplication" finished-at="2024-01-31T11:32:55 IST" duration-ms="12534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="withoutHospitalReadmission(java.util.HashMap)[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:32:55 IST" name="withoutHospitalReadmission" data-provider="appointmentData" finished-at="2024-01-31T11:33:02 IST" duration-ms="7154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=ThisIsNotAPassword, monthAndYear=March 2025, comment=I want to checkup my teeth, user=John Doe, facility=Tokyo CURA Healthcare Center, day=6}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withoutHospitalReadmission -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:33:02 IST" name="tearDown" finished-at="2024-01-31T11:33:02 IST" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:33:02 IST" name="launchApplication" finished-at="2024-01-31T11:33:12 IST" duration-ms="9761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="withoutHospitalReadmission(java.util.HashMap)[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:33:12 IST" name="withoutHospitalReadmission" data-provider="appointmentData" finished-at="2024-01-31T11:33:18 IST" duration-ms="6299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=ThisIsNotAPassword, monthAndYear=May 2024, comment=I want to checkup my mouth, user=John Doe, facility=Hongkong CURA Healthcare Center, day=21}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withoutHospitalReadmission -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:33:18 IST" name="tearDown" finished-at="2024-01-31T11:33:19 IST" duration-ms="525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:33:19 IST" name="launchApplication" finished-at="2024-01-31T11:33:30 IST" duration-ms="11387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="withoutHospitalReadmission(java.util.HashMap)[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:33:30 IST" name="withoutHospitalReadmission" data-provider="appointmentData" finished-at="2024-01-31T11:33:37 IST" duration-ms="6330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=ThisIsNotAPassword, monthAndYear=May 2024, comment=I want to checkup my mouth, user=John Doe, facility=Hongkong CURA Healthcare Center, day=21}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withoutHospitalReadmission -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:curaHealthCare.tests.MakeAppointmentTest@ea6147e]" started-at="2024-01-31T11:33:37 IST" name="tearDown" finished-at="2024-01-31T11:33:37 IST" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- curaHealthCare.tests.MakeAppointmentTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
