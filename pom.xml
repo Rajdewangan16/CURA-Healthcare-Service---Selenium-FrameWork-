@@ -60,7 +60,7 @@
 							<version>3.2.5</version>
 							<configuration>
 								<suiteXmlFiles>
-									<suiteXmlFile>testSuite\\RegressiionTests.xml</suiteXmlFile>
+									<suiteXmlFile>testSuite\\RegressionTests.xml</suiteXmlFile>
 								</suiteXmlFiles>
 							</configuration>
 						</plugin>
